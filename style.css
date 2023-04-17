@@ -1,0 +1,328 @@
+/* Global styles */
+body {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+}
+
+h1, h2, h3 {
+	margin-top: 0;
+}
+
+section {
+	padding: 40px;
+}
+
+/* Header styles */
+header {
+	background-color: #000000;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 120px;
+	margin-bottom: 40px;
+}
+
+header img {
+	height: 60px;
+	margin-top: 40px;
+	margin-bottom: 40px
+}
+
+
+
+/* Hero section styles */
+.hero {
+	/*background-image: url('background-cover.svg');*/
+	background-size: cover;
+	background-position: center;	
+	background-color: #000000;
+	text-align: center;
+}
+
+
+
+.hero h1 {
+	font-size: 3.5rem;
+	color: #ffffff;
+}
+.hero-text{
+	position: relative;
+}
+
+.img-absolute-hero{
+	position: absolute;
+	top: -40px;
+	right: -60px;
+}
+
+.hero p {
+	font-size: 1.5rem;
+	font-weight: 100;
+	color: #ffffff;
+}
+
+/* Partners section styles */
+.partners {
+	background-color: #7AC899;
+	font-size: 1 rem;
+	font-weight: 100;
+	color: #000000;
+	text-align: center;
+	margin-top: 60px;
+	padding-bottom: 40px;
+}
+
+.partner-logos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.partner-logos img {
+	height: 160px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 15px;
+}
+
+
+/* Speakers section styles */
+.speakers {
+	background-color: #000000;
+	font-size: 1 rem;
+	color: #ffffff;
+	text-align: center;
+}
+
+.speaker-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+
+.speaker img {
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-top: 40px;
+}
+
+.speaker h3 {
+	margin-top: 20px;
+	margin-bottom: 0px;
+	font-size: 1.5rem;
+}
+
+.speaker p {
+	margin-top: 10px;
+	color: #888;
+	font-weight: 300;
+}
+
+/* How to attend */
+.how-to-attend {
+	background-color: #000000;
+	text-align: center;
+	padding: 40px;
+  }
+  
+  .card-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+  }
+  
+  .card {
+	background-color: #fff;
+	border-radius: 12px;
+	padding: 20px;
+	width: 300px;
+	margin: 20px;
+  }
+  
+  .card h3 {
+	font-size: 2rem;
+	margin-bottom: 10px;
+  }
+  
+  .card-text {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	height: 130px;
+  }
+  
+  .sold-out-banner {
+	background-color: #F0CC5F;
+	color: #000000;
+	text-align: center;
+	padding: 10px;
+	border-radius: 12px;
+	margin-top: 20px;
+  }
+  
+  .sold-out-banner p {
+	font-size: 1rem;
+	line-height: 1.5;
+  }
+  
+ 
+  
+
+  
+
+/* Theme */
+
+.theme{
+	font-size: 1rem;
+	font-weight: 100;
+	color: #000;
+	text-align: center;
+	background-color: #7AC899;
+}
+
+.cards-description{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: 40px; 
+	flex-grow:1;
+	background-color:#fff; 
+	position:relative;
+	color: #000;
+	border-radius: 12px;
+	text-align: left;
+	font-weight: 300;
+}
+
+.img-absolute{
+	position: absolute;
+	bottom: -40px;
+	right: -40px;
+}
+
+
+.theme-grid{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+
+/* See you later */
+
+.see-you-later{
+	background-color: #7AC899;
+	display: flex;
+	font-size: 5rem;
+	font-weight: bolder;
+	padding: 60px;
+	line-height: 180%;
+
+}
+.see-you-later h1{
+	width: 50%;
+	inline-size: 50%;
+	overflow: wrap;
+}
+.see-you-later div{
+	width: 50%;
+}
+
+
+.illustration-container-img{
+	width: 500px;
+	padding-top: 120px;
+	padding-left: 60px;
+}
+
+
+/* Footer styles */
+footer {
+	background-color: #000000;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+footer p {
+	margin: 0;
+	font-size: 1rem;
+}
+
+
+
+
+
+
+  @media (max-width: 1180px){
+	
+	.theme-grid{
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.see-you-later{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	
+	}
+
+	.see-you-later h1{
+		width: 100%;
+		font-size: 5rem;
+		line-height: 130%;
+		inline-size: 100%;
+		overflow: wrap;
+		text-align: center;
+	}
+	
+	.see-you-later div{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	.illustration-container-img{
+		
+		min-width: 500px;
+		width: 40%;
+		padding-top: 0px;
+		padding-left: 00px;
+	}
+	
+  }
+
+  @media (max-width: 960px){
+	.speaker-grid{
+		display: flex;
+		flex-direction: column;
+	}
+	.cards-description{
+		min-width: 200px;
+		display: flex;
+		flex-direction: column;
+	}
+	.illustration-container-img{
+		
+		min-width: 500px;
+		width: 100%;
+		padding-top: 0px;
+		padding-left: 00px;
+	}
+	
+	.see-you-later h1{
+		width: 100%;
+		font-size: 5rem;
+		line-height: 130%;
+		inline-size: 100%;
+		overflow: wrap;
+		text-align: left;
+	}
+
+  }
