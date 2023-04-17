@@ -1,9 +1,11 @@
 /* Global styles */
 body {
+	min-width: 360px;
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
 	padding: 0;
 	background-color: #000000;
+
 }
 
 h1, h2, h3 {
@@ -16,6 +18,7 @@ section {
 
 /* Header styles */
 header {
+	width: 100%;
 	background-color: #000000;
 	color: #fff;
 	display: flex;
@@ -313,7 +316,7 @@ footer p {
 		min-width: 500px;
 		width: 100%;
 		padding-top: 0px;
-		padding-left: 00px;
+		padding-left: 0px;
 	}
 	
 	.see-you-later h1{
@@ -325,4 +328,75 @@ footer p {
 		text-align: left;
 	}
 
+  }
+
+  @media (max-width: 480px){
+	
+
+	.hero {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #000000;
+		text-align: center;
+
+	}
+	
+	
+	.hero h1 {
+		word-spacing: 200px;
+ 		font-size: 2.4rem;
+		color: #ffffff;
+	}
+
+	.hero p{
+		font-size: 1.2rem;
+	}
+	
+	.img-absolute-hero{
+		position: absolute;
+		top: -20px;
+		right: -33px;
+		width: 50px;
+	}
+
+	.partner-logos img {
+		width: 100px;
+	}
+
+	.theme, .how-to-attend, .hero{
+		align-items: center;
+		align-content: center;
+		padding-left:16px;
+		padding-right: 16px;
+		padding-bottom: 32px;
+		padding-top: 32px;
+	}
+
+	.theme-grid{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+
+	.cards-description{
+		padding: 16px;
+		margin: 16px;
+	}
+
+	.img-absolute{
+		right: -10px;
+	}
+
+	.illustration-container-img{
+		width: 220px;
+		min-width: 320px;
+	}
+
+	.see-you-later{
+		padding: 32px;
+	}
+	
+	
   }
