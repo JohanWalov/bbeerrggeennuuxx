@@ -185,7 +185,7 @@ header img {
 	font-weight: 100;
 	color: #000;
 	text-align: center;
-	background-color: #7AC899;
+	background-color: #CFF4FD;
 }
 
 .cards-description{
@@ -219,7 +219,7 @@ header img {
 /* See you later */
 
 .see-you-later{
-	background-color: #7AC899;
+	background-color: #CFF4FD;
 	display: flex;
 	font-size: 5rem;
 	font-weight: bolder;
