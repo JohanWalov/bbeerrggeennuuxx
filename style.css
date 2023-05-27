@@ -227,6 +227,7 @@ header img {
 .see-you-later{
 	background-color: #85DEF3;
 	display: flex;
+	padding: 0px;
 	justify-content: center;
 
 }
@@ -235,7 +236,6 @@ header img {
 	display: flex;
 	font-size: 5rem;
 	font-weight: bolder;
-	padding: 60px;
 	line-height: 180%;
 	max-width: 1220px;
 
@@ -339,7 +339,6 @@ footer p {
 		line-height: 130%;
 		inline-size: 100%;
 		overflow: wrap;
-		text-align: left;
 	}
 
   }
@@ -378,6 +377,10 @@ footer p {
 		width: 100px;
 	}
 
+	.speaker{
+	margin: 0px;
+	}
+
 	.theme, .how-to-attend, .hero{
 		align-items: center;
 		align-content: center;
@@ -408,9 +411,13 @@ footer p {
 		min-width: 320px;
 	}
 
-	.see-you-later{
-		padding: 32px;
-	}
 	
+
+	.see-you-later > div{
+		padding: 32px 0px;
+	}
+
+	
+
 	
   }
