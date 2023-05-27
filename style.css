@@ -106,6 +106,10 @@ header img {
 	align-items: center;
 }
 
+.speaker{
+	margin: 0px 100px;
+}
+
 .speaker img {
 	height: 200px;
 	border-radius: 50%;
@@ -201,6 +205,8 @@ header img {
 	border-radius: 12px;
 	text-align: left;
 	font-weight: 300;
+	max-width: 500px;
+	min-height: 230px;
 }
 
 .img-absolute{
@@ -211,7 +217,7 @@ header img {
 
 
 .theme-grid{
-	ddisplay: flex;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 }
@@ -221,18 +227,26 @@ header img {
 .see-you-later{
 	background-color: #85DEF3;
 	display: flex;
+	justify-content: center;
+
+}
+
+.see-you-later > div{
+	display: flex;
 	font-size: 5rem;
 	font-weight: bolder;
 	padding: 60px;
 	line-height: 180%;
+	max-width: 1220px;
 
 }
+
 .see-you-later h1{
 	width: 50%;
 	inline-size: 50%;
 	overflow: wrap;
 }
-.see-you-later div{
+.see-you-later-image{
 	width: 50%;
 }
 
@@ -382,7 +396,7 @@ footer p {
 
 	.cards-description{
 		padding: 16px;
-		margin: 16px;
+		margin: 40px 16px;
 	}
 
 	.img-absolute{
