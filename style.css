@@ -101,9 +101,9 @@ header img {
 }
 
 .speaker-grid {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .speaker img {
@@ -211,9 +211,9 @@ header img {
 
 
 .theme-grid{
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 20px;
+	ddisplay: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /* See you later */
