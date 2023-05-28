@@ -304,6 +304,7 @@ footer p {
 		flex-direction: column;
 		align-items: center;
 		width: 100%;
+		padding: 32px 0px;
 	}
 	.illustration-container-img{
 		
@@ -339,6 +340,7 @@ footer p {
 		line-height: 130%;
 		inline-size: 100%;
 		overflow: wrap;
+		padding: 32px 0px;
 	}
 
   }
